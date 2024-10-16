@@ -1,0 +1,48 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--title);
+}
+
+.definition-list,
+.purpose-list,
+.data-list,
+.rights-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.home-btn {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.privacy-policy-link {
+  font-size: 18px;
+  color: #512da8;
+  text-decoration: underline;
+}

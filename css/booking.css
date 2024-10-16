@@ -1,0 +1,145 @@
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(172, 104, 105, 0.3);
+}
+
+.contact-img {
+  margin: 0 auto;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  fill: var(--hover);
+  margin-right: 10px;
+}
+
+.contact-text,
+.contact-link {
+  color: var(--title);
+  font-size: 14px;
+}
+
+.contact-link {
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: var(--hover);
+}
+
+.application-form {
+  background-color: rgba(172, 104, 105, 0.3);
+  padding: 24px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: 0 auto;
+  color: var(--text);
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  fill: var(--hover);
+}
+
+.input-field,
+.select-field,
+.textarea-field {
+  padding: 10px 10px 10px 30px;
+  border: 1px solid var(--title);
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--text);
+}
+
+.textarea-field {
+  height: 100px;
+  resize: none;
+}
+
+.checkbox {
+  margin-right: 5px;
+  accent-color: var(--hover);
+}
+
+.submit-button {
+  background-color: var(--hover);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #00796b;
+}
+
+.form-link-policy {
+  color: var(--hover);
+}
+
+.form-link-policy:hover {
+  color: #00796b;
+}
+
+@media (min-width: 900px) {
+  .contact-wrap {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+  }
+
+  .application-form {
+    padding: 40px;
+    max-width: 500px;
+  }
+
+  .contact-item {
+    height: 450px;
+    padding: 20px;
+  }
+}
+
+.success-message {
+  display: none;
+  color: var(--title);
+  font-weight: bold;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: var(--hover);
+  border: 1px solid #009200;
+  padding: 10px;
+  z-index: 1000;
+  border-radius: 15px;
+}

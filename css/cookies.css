@@ -1,0 +1,41 @@
+.cookie-notice {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(172, 104, 105);
+  padding: 15px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1000;
+  display: none;
+}
+
+.cookie-notice .notice {
+  margin: 0 0 10px;
+  display: block;
+  color: var(--text);
+}
+
+.link-to-policy {
+  color: var(--hover);
+  text-decoration: underline;
+}
+
+.cookie-btn {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accept-cookies {
+  background-color: #caffcc;
+  color: #4caf50;
+}
+
+.reject-cookies {
+  background-color: #ffcdd2;
+  color: #d32f2f;
+}

@@ -1,0 +1,15 @@
+.favicon {
+  width: 150px;
+  height: 150px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.size {
+  height: 100vh;
+}
