@@ -1,5 +1,5 @@
 .main-content {
-  height: 100vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,25 +17,9 @@
 
 .main-title {
   font-family: var(--second-family);
-  font-weight: 700;
   font-size: 60px;
   letter-spacing: 0.05em;
   color: var(--title);
-  -webkit-text-stroke: 1px #54aead;
-}
-
-.main-text {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 28px;
-  letter-spacing: 0.05em;
-  color: #ac6869;
-}
-
-.main-descr {
-  font-weight: 500;
-  font-size: 36px;
-  text-align: center;
 }
 
 @media (min-width: 900px) {
@@ -51,17 +35,10 @@
   .main-title {
     font-size: 68px;
   }
-
-  .main-text {
-    font-size: 32px;
-  }
 }
 
-/* Медіа-запит для ширини більше ніж 900 пікселів */
 @media (min-width: 900px) {
-  .ice-cream-image {
-    width: 50%; /* Змінюємо ширину зображення на 50% */
-    /* Ви можете також задати конкретну висоту, якщо це необхідно */
-    /* height: auto; Залишаємо автоматичну висоту для збереження пропорцій */
+  .main-image {
+    width: 50%;
   }
 }

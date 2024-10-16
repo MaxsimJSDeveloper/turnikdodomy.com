@@ -6,10 +6,10 @@
         <nav class="modal-nav" aria-label="Основна навігація" itemscope itemtype="http://schema.org/SiteNavigationElement">
             <h2 id="modal-title" class="visually-hidden" itemprop="name">Меню навігації</h2>
             <ul class="nav-list">
-                <li class="nav-item"><a class="nav-item-link" href="#about" itemprop="url">Про нас</a></li>
-                <li class="nav-item"><a class="nav-item-link" href="#set" itemprop="url">Набори</a></li>
-                <li class="nav-item"><a class="nav-item-link" href="#reviews" itemprop="url">Відгуки</a></li>
-                <li class="nav-item"><a class="nav-item-link" href="#booking" itemprop="url">Замовити</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#about">Про нас</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#products">Товари</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#benefits">Переваги</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#booking">Замовити</a></li>
             </ul>
         </nav>
     </div>

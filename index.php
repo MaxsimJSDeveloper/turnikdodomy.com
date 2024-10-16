@@ -10,10 +10,10 @@
     <link rel="icon" type="image/svg+xml" href="./img/favicon.webp" />
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Набір для приготування морозива - створіть смачні десерти вдома</title>
+    <title>Товари для спорту та тренувань</title>
 
-    <meta name="description" content="Придбайте наш набір для приготування морозива та навчіться створювати смачні морозивні десерти вдома. Ідеально підходить для сімейних свят, вечірок та особливих моментів!" />
-    <meta name="keywords" content="набір для морозива, домашнє морозиво, рецепти морозива, смачні десерти, ідеї для вечірок, набір для приготування" />
+    <meta name="description" content="Широкий вибір спортивного обладнання для дому: турніки, бруси, шведські стінки та багато іншого. Замовляйте обладнання для тренувань з доставкою по Україні." />
+    <meta name="keywords" content="спортивне обладнання, турніки, бруси, шведські стінки, спорттовари, товари для тренувань, домашні тренування" />
     <meta name="robots" content="index, follow" />
 </head>
 
@@ -23,7 +23,7 @@
         <?php include './components/main.php' ?>
         <?php include './components/about-us.php' ?>
         <?php include './components/goods.php' ?>
-        <?php include './components/reviews.php' ?>
+        <?php include './components/advantages.php' ?>
         <?php include './components/contacts.php' ?>
     </main>
     <?php include './components/footer.php' ?>

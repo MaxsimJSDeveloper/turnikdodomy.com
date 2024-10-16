@@ -1,0 +1,2 @@
+Host: https://turnikdodomy.com/
+Sitemap: https://turnikdodomy.com/sitemap.xml

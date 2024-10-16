@@ -2,10 +2,9 @@
     <div class="container">
         <div class="main-content">
             <div class="main-title-wrap">
-                <h1 class="main-title" itemprop="name">Льодове Диво</h1>
-                <p class="main-text" itemprop="description">Набір для приготування морозива</p>
+                <h1 class="main-title" itemprop="name">Спортивне обладнання для дому</h1>
             </div>
-            <img src="./img/ice-cream.webp" alt="Морозиво" class="ice-cream-image" width="300" itemprop="image"/>
+            <img src="./img/main.webp" alt="Людина тренерується" class="main-image" width="300" itemprop="image"/>
         </div>
     </div>
 </section>

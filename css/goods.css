@@ -46,7 +46,7 @@
   color: var(--title);
   width: 100%;
   height: 40px;
-  background-color: #dcebeb;
+  background-color: rgba(227, 49, 29, 0.502);
   border-radius: 10px;
   margin-bottom: 20px;
   max-width: 500px;

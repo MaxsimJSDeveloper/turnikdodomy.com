@@ -1,16 +1,14 @@
 <header class="header" itemscope itemtype="http://schema.org/WPHeader">
     <div class="header-container">
         <div class="logo" role="img" aria-label="Логотип компанії">
-            <svg class="logo-svg">
-                <use href="./img/symbol-defs.svg#icon-ice-cream"></use>
-            </svg>
-            <a class="logo-txt" href="" itemprop="name">make icecream</a>
+            <img class="logo-svg" src="./img/favicon.webp" alt="Логотип" width="60">
+            <a class="logo-txt" href="" itemprop="name">Turnik Dodomy</a>
         </div>
         <nav class="nav" aria-label="Основна навігація">
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-item-link" href="#about">Про нас</a></li>
-                <li class="nav-item"><a class="nav-item-link" href="#set">Набори</a></li>
-                <li class="nav-item"><a class="nav-item-link" href="#reviews">Відгуки</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#products">Товари</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#benefits">Переваги</a></li>
                 <li class="nav-item"><a class="nav-item-link" href="#booking">Замовити</a></li>
             </ul>
         </nav>

@@ -1,52 +1,52 @@
-<section id="set" class="section-indentation section-color" itemscope itemtype="http://schema.org/ItemList">
+<section id="products" class="section-indentation section-color" itemscope itemtype="http://schema.org/ItemList">
   <div class="container container-products">
     <div class="title-wrap">
-      <h2 class="title" itemprop="name">Набори</h2>
+      <h2 class="title" itemprop="name">Наші товари</h2>
     </div>
 
     <ul class="products-list">
       <li class="products-list-item" itemscope itemtype="http://schema.org/Product">
         <div class="products-info">
-          <h3 class="products-description-title" itemprop="name">Ванільна мрія</h3>
+          <h3 class="products-description-title" itemprop="name">Бігові доріжки</h3>
           <p class="products-description" itemprop="description">
-            Цей набір чудово підійде тим, хто віддає перевагу класичним смакам. Він містить усе необхідне для приготування традиційного ванільного морозива, а також можливість додати улюблені топінги: шоколад, горіхи або фрукти.
+            Надійна бігова доріжка для домашнього використання. Ідеально підходить для тренувань у зручний час, допомагаючи підтримувати активний спосіб життя. Містить кілька програм тренувань для різних рівнів підготовки.
           </p>
           <a class="order-btn" href="#booking" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><span>Замовити</span></a>
         </div>
-        <img src="./img/vanilla.webp" alt="Набір Ванільна мрія" width="300" loading="lazy" itemprop="image">
+        <img src="./img/treadmill.webp" alt="Бігова доріжка" width="300" loading="lazy" itemprop="image">
       </li>
 
       <li class="products-list-item" itemscope itemtype="http://schema.org/Product">
         <div class="products-info">
-          <h3 class="products-description-title" itemprop="name">Фруктовий мікс</h3>
+          <h3 class="products-description-title" itemprop="name">Бруси</h3>
           <p class="products-description" itemprop="description">
-            Для поціновувачів свіжих і яскравих смаків. Набір включає інгредієнти для приготування фруктового морозива або сорбету, з акцентом на натуральні фруктові пюре та екзотичні аромати.
+            Компактні бруси для дому, які дозволяють ефективно тренувати верхню частину тіла. Відмінно підходять для розвитку сили, витривалості та покращення постави. Можна використовувати в будь-якому просторі.
           </p>
           <a class="order-btn" href="#booking" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><span>Замовити</span></a>
         </div>
-        <img src="./img/ice-lolly.webp" alt="Набір Фруктовий мікс" width="300" loading="lazy" itemprop="image">
+        <img src="./img/bars.webp" alt="Бруси" width="300" loading="lazy" itemprop="image">
       </li>
 
       <li class="products-list-item" itemscope itemtype="http://schema.org/Product">
         <div class="products-info">
-          <h3 class="products-description-title" itemprop="name">Шоколадний рай</h3>
+          <h3 class="products-description-title" itemprop="name">Турніки</h3>
           <p class="products-description" itemprop="description">
-            Для любителів шоколаду. У комплекті — суміші для приготування різних видів шоколадного морозива: темного, молочного, білого, а також шоколадна крихта для декору.
+            Міцний турнік для дому з можливістю закріплення на стіну або дверний проріз. Підходить для підтягувань, вправ на м'язи рук та спини. Оптимальний вибір для людей, які хочуть тренуватися вдома.
           </p>
           <a class="order-btn" href="#booking" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><span>Замовити</span></a>
         </div>
-        <img src="./img/chocolate-ice-cream.webp" alt="Набір Шоколадний рай" width="300" loading="lazy" itemprop="image">
+        <img src="./img/horizontal-bar.webp" alt="Турнік" width="300" loading="lazy" itemprop="image">
       </li>
 
       <li class="products-list-item" itemscope itemtype="http://schema.org/Product">
         <div class="products-info">
-          <h3 class="products-description-title" itemprop="name">Експериментатор</h3>
+          <h3 class="products-description-title" itemprop="name">Шведські стінки</h3>
           <p class="products-description" itemprop="description">
-            Цей набір призначений для творчих особистостей. Він містить базові інгредієнти для приготування морозива, а також різні добавки: ароматизатори, барвники та текстурні елементи (маршмелоу, шматочки печива), що дозволить вам гратися зі смаками та кольорами.
+            Універсальні шведські стінки для дому з можливістю додаткових модулів: турніка, брусів та інших елементів. Забезпечують широкий спектр тренувань для всіх вікових категорій.
           </p>
           <a class="order-btn" href="#booking" itemprop="offers" itemscope itemtype="http://schema.org/Offer"><span>Замовити</span></a>
         </div>
-        <img src="./img/experimental-ice-cream.webp" alt="Набір Експериментатор" width="300" loading="lazy" itemprop="image">
+        <img src="./img/wall-bars.webp" alt="Шведська стінка" width="300" loading="lazy" itemprop="image">
       </li>
     </ul>
   </div>

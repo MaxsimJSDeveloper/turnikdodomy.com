@@ -2,6 +2,8 @@
   background: var(--hover);
   height: 80px;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .header-container {
@@ -19,20 +21,16 @@
 }
 
 .logo-svg {
-  width: 60px;
-  height: 70px;
-  fill: #bc992e;
   filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
   transition: transform 0.3s;
 }
 
 .logo-txt {
+  font-family: var(--second-family);
   color: #fafafa;
   text-transform: capitalize;
   margin-left: 10px;
   transition: color 0.3s;
-  font-weight: 700;
-  color: #ac6869;
 }
 
 .nav {

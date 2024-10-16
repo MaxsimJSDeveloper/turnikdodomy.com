@@ -1,11 +1,11 @@
 :root {
-  --text: #3f3f3f;
-  --title: #fafafa;
-  --hover: #92dad9;
-  --tittle-wrap: rgba(172, 104, 105, 0.6);
-  --cards-wrap: rgba(236, 164, 164, 0.4);
-  --font-family: "Quicksand", sans-serif;
-  --second-family: "Poppins", sans-serif;
+  --text: #cfcfd1;
+  --title: #f3f3f3;
+  --hover: #e3311d;
+  --tittle-wrap: rgba(224, 103, 105, 0.6);
+  --cards-wrap: rgba(227, 49, 29, 0.5);
+  --font-family: "Roboto", sans-serif;
+  --second-family: "KeaniaOne", sans-serif;
 }
 
 * {
@@ -20,7 +20,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.05em;
   margin: 0;
-  background: linear-gradient(180deg, #f7e2e1 50%, #eca4a4 100%);
+  background-color: #1e1613;
 }
 
 h1,
@@ -120,7 +120,6 @@ nav {
 
 .title {
   font-family: var(--second-family);
-  font-weight: 700;
   font-size: 32px;
   letter-spacing: 0.05em;
   text-align: center;
