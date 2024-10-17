@@ -1,7 +1,7 @@
 <section id="benefits" class="section-indentation" aria-labelledby="advantages-title" itemscope itemtype="https://schema.org/Organization">
     <div class="container">
         <div class="title-wrap">
-            <h2 class="title" itemprop="name">Переваги</h2>
+        <h2 id="advantages-title" class="title" itemprop="name">Переваги</h2>
         </div>
         <ul class="event-benefits">
             <li class="benefit-item" itemscope itemtype="https://schema.org/PropertyValue">
@@ -10,7 +10,7 @@
             </li>
             <li class="benefit-item" itemscope itemtype="https://schema.org/PropertyValue">
                 <h3 class="benefit-title" itemprop="name">Підхід</h3>
-                <p class="benefit-description" itemprop="description">Ми допомагаємо підібрати обладнання відповідно до ваших потреб та цілей. Наші консультації забезпечать найкращий вибір саме для вас, незалежно від рівня підготовки.</p>
+                <p class="benefit-description" itemprop="description">Ми допомагаємо підібрати обладнання відповідно до ваших потреб та цілей. Наші консультації забезпечать крутий вибір саме для вас, незалежно від рівня підготовки.</p>
             </li>
             <li class="benefit-item" itemscope itemtype="https://schema.org/PropertyValue">
                 <h3 class="benefit-title" itemprop="name">Підтримка</h3>

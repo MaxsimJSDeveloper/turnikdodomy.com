@@ -17,7 +17,7 @@
 
 .main-title {
   font-family: var(--second-family);
-  font-size: 60px;
+  font-size: 40px;
   letter-spacing: 0.05em;
   color: var(--title);
 }
