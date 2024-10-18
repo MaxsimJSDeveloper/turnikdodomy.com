@@ -1,8 +1,10 @@
 <header class="header" itemscope itemtype="http://schema.org/WPHeader">
     <div class="header-container">
         <div class="logo" role="img" aria-label="Логотип компанії">
-            <img class="logo-svg" src="./img/favicon.webp" alt="Логотип" width="60">
-            <a class="logo-txt" href="" itemprop="name">Turnik Dodomy</a>
+               <a class="logo" href="/" role="img" aria-label="Логотип компанії" itemprop="url">
+             <img class="logo-svg" src="./img/favicon.webp" alt="Логотип" width="60">
+            <span class="logo-txt" itemprop="name">Turnik Dodomy</span>
+        </a>
         </div>
         <nav class="nav" aria-label="Основна навігація">
             <ul class="nav-list">

@@ -21,26 +21,23 @@
           <svg class="contact-icon" width="20" height="20" aria-label="Телефон">
             <use href="./img/symbol-defs.svg#icon-phone"></use>
           </svg>
-          <span class="contact-text" itemprop="telephone">+380 44 123 45 67</span>
+          <span class="contact-text" itemprop="telephone">+380 48 123 45 67</span>
         </div>
         <div class="contact-box">
           <svg class="contact-icon" width="20" height="20" aria-label="Email">
             <use href="./img/symbol-defs.svg#icon-email"></use>
           </svg>
-          <a
-            class="contact-link"
-            href="support@turnikdodomy.com"
-            aria-label="Написати на email"
-            itemprop="email">support@turnikdodomy.com</a>
+            <a class="contact-link" href="mailto:support@turnikdodomy.com" aria-label="Написати на email" itemprop="email">support@turnikdodomy.com</a>
+
         </div>
         <img class="contact-img" src="./img/map.webp" alt="карта" width="200" itemprop="image">
       </div>
 
       <?php include './components/form.php' ?>
 
-      <div class="success-message" id="successMessage">
-        Дані успішно надіслані!
-      </div>
+        <div class="success-message" id="successMessage" style="display: none;">
+            Дані успішно надіслані!
+        </div>
     </div>
   </div>
 </section>
