@@ -1,10 +1,10 @@
-<section class="section-indentation bg-img" aria-labelledby="booking-heading" itemscope itemtype="http://schema.org/CreativeWork">
+<section class="section-indentation bg-img" aria-labelledby="booking-heading">
     <div class="container">
         <div class="main-content">
             <div class="main-title-wrap">
-                <h1 class="main-title" itemprop="name">Спортивне обладнання для дому</h1>
+                <h1 class="main-title">Спортивне обладнання для дому</h1>
             </div>
-            <img src="./img/main.webp" alt="Людина тренерується" class="main-image" width="300" itemprop="image"/>
+            <img src="./img/main.webp" alt="Людина тренерується" class="main-image" width="300"/>
         </div>
     </div>
 </section>

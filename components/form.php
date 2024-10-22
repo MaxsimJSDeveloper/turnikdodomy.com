@@ -1,10 +1,4 @@
-<form
-  class="application-form"
-  id="myForm"
-  aria-labelledby="booking-heading"
-  itemscope
-  itemtype="http://schema.org/ContactPage"
->
+<form class="application-form" id="myForm" aria-labelledby="booking-heading">
   <div class="input-container">
     <svg class="icon" aria-hidden="true" focusable="false">
       <use href="./img/symbol-defs.svg#icon-user"></use>
@@ -16,7 +10,6 @@
       placeholder="Ім'я"
       required
       aria-label="Ім'я"
-      itemprop="name"
     />
   </div>
 
@@ -31,7 +24,6 @@
       placeholder="Email"
       required
       aria-label="Email"
-      itemprop="email"
     />
   </div>
 
@@ -46,7 +38,6 @@
       placeholder="Телефон"
       required
       aria-label="Телефон"
-      itemprop="telephone"
     />
   </div>
 
@@ -56,7 +47,6 @@
       class="textarea-field"
       placeholder="Коментар до замовлення"
       aria-label="Коментар до замовлення"
-      itemprop="additionalType"
     ></textarea>
   </div>
 
