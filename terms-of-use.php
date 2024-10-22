@@ -6,10 +6,9 @@
     <meta http-equiv="Cache-control" content="no-cache" />
     <meta name="google" content="nopagereadaloud" />
     <meta name="robots" content="noindex" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/img/favicon.webp" />
-            <link rel="stylesheet" href="/css/fonts.css" />  
-    <link rel="stylesheet" href="/css/header.css" />
-    <link rel="stylesheet" href="/css/general.css" />
+
     <link rel="stylesheet" href="/css/policy.css" />
     <title>Умови використання</title>
     <meta
@@ -22,31 +21,27 @@
     />
   </head>
   <body>
-    <header class="header" itemscope itemtype="https://schema.org/Organization">
+<header class="header">
       <div class="header-container">
         <a
           class="logo"
           href="/"
-          role="img"
           aria-label="Логотип компанії"
-          itemprop="url"
         >
-        <img class="logo-svg" src="/img/favicon.webp" alt="Логотип" width="60">
-
-          <span class="logo-txt" itemprop="name">turnik dodomy</span>
+           <img class="logo-svg" src="/img/favicon.webp" alt="Логотип" width="60">
+          <span class="logo-txt">Turnik Dodomy</span>
         </a>
         <nav style="display: block" aria-label="Основна навігація">
           <ul class="nav-list">
             <li class="nav-item">
-              <a class="nav-item-link" href="/" itemprop="url">На головну</a>
+              <a class="nav-item-link" href="/">На головну</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="container">
+    <div class="container policy-wrap">
       <h1 class="title">УГОДА КОРИСТУВАЧА</h1>
-
       <h2 class="title">1. Загальні положення.</h2>
       <p>
         1.1. Даний текст є Угодою між інтернет-магазином "turnikdodomy.com", в

@@ -32,8 +32,15 @@
 
       <?php include './components/form.php' ?>
 
-      <div class="success-message" id="successMessage" style="display: none;">
-          Дані успішно надіслані!
+      <div class="success-message" id="successMessage" style="display: none">
+        <div class="booking-modal-content">
+          <svg class="icon-modal" width="100" height="100" aria-label="icon-success">
+            <use href="./img/symbol-defs.svg#icon-check"></use>
+          </svg>
+          <p>
+            Ви успішно замовили спортивне обладнання!
+          </p>
+        </div>
       </div>
     </div>
   </div>

@@ -9,7 +9,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
   const message = document.getElementById("successMessage");
   message.classList.add("show");
 
-  setTimeout(() => {
-    message.classList.remove("show");
-  }, 3000);
+  // setTimeout(() => {
+  //   message.classList.remove("show");
+  // }, 5000);
 });

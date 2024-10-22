@@ -134,14 +134,13 @@
   top: 20px;
   right: 20px;
   display: none;
-  color: var(--title);
   font-weight: bold;
-  background-color: var(--hover);
-  border: 1px solid #009200;
+  border: 1px solid var(--title);
   padding: 15px 20px;
   z-index: 1000;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #e06769;
   opacity: 0;
   transition: opacity 0.5s ease, transform 0.5s ease;
   transform: translateY(-20px);
@@ -159,5 +158,19 @@
     right: 10px;
     padding: 10px 15px;
     font-size: 0.9rem;
+    border-radius: 16px;
   }
+}
+
+.icon-modal {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  fill: var(--title);
+}
+
+.booking-modal-content {
+  display: flex;
+  align-items: center;
+  color: var(--title);
 }

@@ -1,24 +1,40 @@
-.container {
-  width: 80%;
-  margin: 0 auto;
-  height: 100%;
+@import url("./fonts.css");
+@import url("./general.css");
+@import url("./header.css");
+
+.policy-nav {
+  display: block;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+  margin: 12px 0;
+  color: var(--text);
+}
+
+.policy-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 36px;
+    margin: 36px 0;
+  }
+
+  .policy-wrap {
+    font-size: 20px;
+  }
 }
 
 .title {
   text-align: center;
   margin-top: 20px;
   font-size: 28px;
-}
-
-.section {
-  margin: 20px 0;
-}
-
-.section-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: var(--title);
 }
 
 .definition-list,
@@ -29,20 +45,15 @@
   margin-left: 20px;
 }
 
+.privacy-policy-link {
+  font-size: 18px;
+  color: #512da8;
+  text-decoration: underline;
+}
+
 p,
 li {
   font-size: 16px;
   line-height: 1.5;
   color: var(--text);
-}
-
-.home-btn {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.privacy-policy-link {
-  font-size: 18px;
-  color: #512da8;
-  text-decoration: underline;
 }
